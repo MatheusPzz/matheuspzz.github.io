@@ -52,4 +52,8 @@ p {
     font-size: 20px;
     margin-bottom: 16px;
 }
+body{
+    background:url("../img/programming.jpg") ;
+    background-size: cover;
+}
 
