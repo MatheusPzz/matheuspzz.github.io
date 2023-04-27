@@ -1,0 +1,145 @@
+#contact
+{
+	min-height: 100vh;
+	background: url(/contact/assets/img/Photo2.JPG);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+/* changing color, width, padding and font in the info tab */
+.contact-info
+{
+	color: rgb(241, 234, 234);
+	max-width: 700px;
+	line-height: 65px;
+	padding-left: 50px;
+	font-size: 18px;
+}
+/* changing margin and font size in the info as well */
+.contact-info i 
+{
+	margin-right: 20px;
+	font-size: 25px;
+}
+/* setup for form */
+.contact-form
+{
+	max-width: 900px;
+	margin-right: 50px;
+}
+.contact-form span
+{
+	color: #9a8873;
+}
+.contact-info, .contact-form
+{
+	flex: 1;
+}
+/* contact form text */
+.contact-form h2
+{
+	color: #FFF;
+	text-align: center;
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+/* setup for the text square */
+.contact-form .text-square
+{
+	background: #000;
+	color: #FFF;
+	border: none;
+	width: calc(50% - 10px);
+	height: 50px;
+	padding: 12px;
+	font-size: 15px;
+	border-radius: 15px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	margin-bottom: 20px;
+	opacity: 0.9;
+}
+.contact-form .text-square:first-child
+{
+	margin-right: 15px;
+}
+.contact-form textarea
+{
+	background: black;
+	color: #FFF;
+	border: none;
+	width: 100%;
+	padding: 12px;
+	min-height: 200px;
+	max-height: 400px;
+	resize: vertical;
+	border-radius: 15px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	margin-bottom: 20px;
+	opacity: 0.9;
+}
+.contact-form .send-button
+{
+	float: right;
+	background: #9a8873;
+	color: #FFF;
+	border: none;
+	width: 120px;
+	height: 40px;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.3s;
+	transition-property: background;
+}
+.contact-form .send-button:hover
+{
+	background: #141204;
+}
+@media screen and (max-width: 950px) 
+{
+	#contact
+	{
+		flex-direction: column;
+	}
+	.contact-info, .contact-form
+	{
+		margin: 30px 50px;
+	}
+	.contact-form h2
+	{
+		font-size: 30px;
+	}
+	.contact-form .text-square
+	{
+		width: 100%;
+	}
+}
+.copyright 
+{
+    
+	position: absolute;
+	right: 15px;
+}
+body {
+
+	background-color: white;
+
+}
+.brand{
+
+	margin-bottom: 15px;
+
+}
+.links-wrapper{
+
+	margin-bottom: 15px;
+
+}
